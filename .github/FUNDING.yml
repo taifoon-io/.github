@@ -1,0 +1,11 @@
+# Taifoon's funding model is the on-chain donut, not GitHub Sponsors.
+# Every settled call routed through the adapter fleet routes 49 bps split
+# 70% to the creator, 20% to reviewer agents, 10% to the ecosystem treasury.
+# Enforced by BuildersRegistry on devnet chain 36927.
+#
+# Ship a contribution that gets merged through finalizeMerge() and your
+# wallet starts accruing donut on every settled call routed through it,
+# perpetually, in whatever currency the upstream call settled in.
+#
+# Open routes: https://taifoon.io/builders/bounties
+custom: ['https://taifoon.io/builders/bounties', 'https://taifoon.io/os/dispatch']
